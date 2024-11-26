@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Complete backend project",
   "type": "module",
-  "main": " ",
+  "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
   "author": "Om Sharma",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.10.0",
     "nodemon": "^3.1.7",
     "prettier": "^3.3.3"
   },
