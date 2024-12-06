@@ -18,3 +18,7 @@ eg: npm i -D ___
 
 * bcrypt 
 - hashes he password 
+
+* Cloudinary:- takes file from user and uplaodes it to their server.
+- what we will do that, we will take files using multer and store them in our local server temporarly.
+After that using cloudinary we will take the files from local storage, and then upload it to server. 
