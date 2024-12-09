@@ -14,4 +14,15 @@ app.use(e.urlencoded({extended: true, limit: "16kb"}))
 app.use(e.static("public"))
 app.use(cookieParser())
 
+//routes
+
+import userRouter from "./routes/user.routes.js"
+
+//router declaration
+
+// aap.use("/user", userRouter)
+//std practice: api versoning
+
+app.use("/api/v1/user", userRouter)
+
 export { app } 
